@@ -66,7 +66,6 @@ int main()
 
     cout << *myService;
 
-    delete myService;
 
 
 
@@ -89,7 +88,7 @@ int main()
     userInput = toupper(userInput);
     if(userInput == 'A')
     {
-        cout << myService;
+        cout << *myService;
     } else if (userInput == 'B') {
         string movieTitle;
         cout << "Enter movie name: ";
